@@ -45,7 +45,7 @@ export default function Header({
       <Avatar>
       <AvatarImage 
         className="h-10 w-10" 
-        src={`${user.image.png}` || `${user.image.webp}`} 
+        src={user.image.png || user.image.webp} 
       />
         <AvatarFallback>
           <CircleUser />
