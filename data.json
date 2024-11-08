@@ -1,8 +1,8 @@
 {
   "currentUser": {
     "image": { 
-      "png": "./public/static/Images/juliusomo.png",
-      "webp": "./public/static/Images/juliusomo.webp"
+      "png": "./public/static/images/juliusomo.png",
+      "webp": "./public/static/images/juliusomo.webp"
     },
     "username": "juliusomo"
   },
@@ -14,8 +14,8 @@
       "score": 12,
       "user": {
         "image": { 
-          "png": "./public/static/Images/amyrobson.png",
-          "webp": "./public/static/Images/amyrobson.webp"
+          "png": "./public/static/images/amyrobson.png",
+          "webp": "./public/static/images/amyrobson.webp"
         },
         "username": "amyrobson"
       },
@@ -28,8 +28,8 @@
       "score": 5,
       "user": {
         "image": { 
-          "png": "./public/static/Images/maxblagun.png",
-          "webp": "./public/static/Images/maxblagun.webp"
+          "png": "./public/static/images/maxblagun.png",
+          "webp": "./public/static/images/maxblagun.webp"
         },
         "username": "maxblagun"
       },
@@ -42,8 +42,8 @@
           "replyingTo": "maxblagun",
           "user": {
             "image": { 
-              "png": "./public/static/Images/ramsesmiron.png",
-              "webp": "./public/static/Images/ramsesmiron.webp"
+              "png": "./public/static/images/ramsesmiron.png",
+              "webp": "./public/static/images/ramsesmiron.webp"
             },
             "username": "ramsesmiron"
           }
@@ -56,8 +56,8 @@
           "replyingTo": "ramsesmiron",
           "user": {
             "image": { 
-              "png": "./public/static/Images/juliusomo.png",
-              "webp": "./public/static/Images/juliusomo.webp"
+              "png": "./public/static/images/juliusomo.png",
+              "webp": "./public/static/images/juliusomo.webp"
             },
             "username": "juliusomo"
           }
