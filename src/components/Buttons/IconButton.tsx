@@ -24,7 +24,7 @@ export default function IconButton({
       disabled={disabled}
     >
       {icon}
-      {text}
+      <p className="hidden sm:block">{text}</p>
     </Button>
   );
 }

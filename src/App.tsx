@@ -5,7 +5,7 @@ import Title from './components/Title/Index';
 const App = () => {
 
   return (
-    <div className="max-w-3xl">
+    <div className="max-w-3xl sm:w-sm md:w-md">
       <Title />
       <Home />
     </div>

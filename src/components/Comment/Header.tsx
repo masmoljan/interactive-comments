@@ -42,9 +42,8 @@ export default function Header({
 
   return (
     <>
-      <Avatar>
+      <Avatar className="hidden sm:block sm:h-10 sm:w-10">
       <AvatarImage 
-        className="h-10 w-10" 
         src={user.image.png || user.image.webp} 
       />
         <AvatarFallback>
@@ -56,7 +55,7 @@ export default function Header({
       <p 
         className="text-sm text-muted-foreground"
       >
-        <ReactTimeAgo date={createdAt}/>
+        <ReactTimeAgo className="text-xs sm:text-sm" date={createdAt}/>
       </p>
       {currentUser !== user.username ? 
         <IconButton 
@@ -70,7 +69,7 @@ export default function Header({
       : 
         <div className="flex ml-auto gap-2">
           <IconButton 
-            className="bg-inherit text-red-700" 
+            className="bg-inherit !text-red-700" 
             variant="ghost" 
             disabled={toggleEdit} 
             onClick={() => setDelete()}

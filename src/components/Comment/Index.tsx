@@ -88,7 +88,7 @@ export default function Comment({
               />
             </div>
             :
-              <p className="max-h-36 overflow-y-auto text-justify p-0.5">
+              <p className="min-h-fit overflow-y-auto text-base text-justify break-all p-0.5">
                 {replyingTo && "@" + replyingTo + ", "}{content}
               </p>
             }

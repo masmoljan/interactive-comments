@@ -3,10 +3,12 @@
 const Title = () => {
   return (
     <div className="p-6 pb-0 text-justify bg-slate-100 rounded-t-lg">
-      <h2 className="text-2xl/7 font-bold text-gray-900 text-center">
+      <h2 className="text-2xl/7 font-bold text-slate-900 text-center">
         Interactive Comments
       </h2>
-      <ul className="list-disc text-base pt-2 ml-4 mr-4">
+      <ul 
+        className="list-disc text-base text-slate-900 dark:text-white pt-2 ml-6 mr-6"
+      >
         <li>
           Comments and replies can be rated with comments 
           being ordered by rating (descending) and replies 

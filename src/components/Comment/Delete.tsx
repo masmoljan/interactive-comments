@@ -25,9 +25,11 @@ export default function Delete({
 
   return (
     <Dialog open={open} onOpenChange={() => setDelete()}>
-      <DialogContent>
+      <DialogContent className="max-w-fit rounded-xl">
         <DialogHeader>
-          <DialogTitle>{TEXT.DELETE_COMMENT}</DialogTitle>
+          <DialogTitle className="text-slate-900 text-center">
+            {TEXT.DELETE_COMMENT}
+          </DialogTitle>
           <DialogDescription className="text-justify pt-3 pb-3">
             {TEXT.DELETE}
           </DialogDescription>
